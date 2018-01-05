@@ -1,0 +1,62 @@
+# coding=utf-8
+# Inlämning 1 | Uppg. 1, 2, 3, 4, 5
+# Alexander Tallqvist
+
+
+# Uppg. 1
+
+print "Start", "\n" * 10, "Slut"
+
+
+# Uppg. 2
+
+print "-" * 20
+print "Welcome to the ultimate currency converter!"
+print "-" * 20, "\n"
+
+sek = input("How many Swedish Crowns would you like to convert to Euros? ")
+eur = sek * 0.106
+print sek, "SEK is", eur, "eur."
+
+
+# Uppg. 3
+
+print "\\|/", "\n", "@ @", "\n", "*", "\n", "\\\"\"\"/"
+
+
+# Uppg. 4
+
+text1 = "One day "
+text2 = " was "
+text3 = " to the "
+text4 = ". On the way, "
+text5 = " saw a "
+text6 = ".\nThis was a surprise, so "
+text7 = " "
+text8 = " quickly."
+
+var1 = raw_input("Enter a proper noun: ")
+var2 = raw_input("Enter a verb ending in 'ing': ")
+var3 = raw_input("Enter a noun: ")
+var4 = raw_input("Enter a pronoun: ")
+var5 = raw_input("Enter a noun: ")
+var6 = raw_input("Enter a verb in the past tense: ")
+
+print text1+var1+text2+var2+text3+var3+text4+var4+\
+text5+var5+text6+var4+text7+var6+text8
+
+
+# Uppg. 5
+
+def main():
+    print "Ange tre (3) tentvitsord"
+    tent1 = input("Vitsord 1: ")
+    tent2 = input("Vitsord 2: ")
+    tent3 = input("Vitsord 3: ")
+    calcAverage(tent1, tent2, tent3)
+
+def calcAverage(para1, para2, para3):
+    avg = (para1 + para2 + para3) / 3.0
+    print "Medeltalet ar", avg
+
+main()

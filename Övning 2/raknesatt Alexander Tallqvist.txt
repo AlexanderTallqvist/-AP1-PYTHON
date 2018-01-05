@@ -1,0 +1,60 @@
+# coding=utf-8
+# Övning 2 | Uppg. 3, 4, 5
+# Alexander Tallqvist
+
+
+
+# Uppg 3.
+
+tal1 = 8
+tal2 = 3
+
+print tal1, "+", tal2, "=", tal1+tal2
+print tal1, "-", tal2, "=", tal1-tal2
+print tal1, "*", tal2, "=", tal1*tal2
+print tal1, "/", tal2, "=", tal1/(tal2 * 1.0)
+
+
+
+# Uppg 4.
+
+print "\nGive me two numbers."
+tal1 = input('Number 1: ')
+tal2 = input('Number 2: ')
+
+try:
+    print tal1, "+", tal2, "=", tal1+tal2
+    print tal1, "-", tal2, "=", tal1-tal2
+    print tal1, "*", tal2, "=", tal1*tal2
+    print tal1, "/", tal2, "=", tal1/(tal2 * 1.0)
+
+except:
+    print "You can't divide by 0."
+
+print "Thank you."
+
+
+
+# Uppg 5.
+
+print "\nGive me two numbers."
+tal1 = input('Number 1: ')
+tal2 = input('Number 2: ')
+
+try:
+    summa = tal1+tal2
+    print tal1, "+", tal2, "=", summa
+
+    differensen = tal1-tal2
+    print tal1, "-", tal2, "=", differensen
+
+    produkten = tal1*tal2
+    print tal1, "*", tal2, "=", produkten
+
+    kvoten = tal1/(tal2 * 1.0)
+    print tal1, "/", tal2, "=", kvoten
+
+except:
+    print "You can't divide by 0."
+
+print "Thank you."

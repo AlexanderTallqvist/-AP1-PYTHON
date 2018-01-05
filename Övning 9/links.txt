@@ -1,0 +1,3 @@
+http://www.python.org
+http://www.abo.fi
+http://www.google.com
